@@ -1,0 +1,655 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+body{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	zoom: 150%;
+	background:url(../img/bg.jpg) repeat-x;
+	background-size: contain;
+}
+
+img{
+	border:none;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+}
+
+a:hover{
+	
+}
+
+p{	
+	margin-left:10px;
+}
+
+
+.frame{
+	margin:0 auto;
+	width:850px;
+}
+
+.top_banner{
+	background-color: #fcfaf0;
+	height:270px;
+	width: 850px;
+}
+
+.logo{
+	width:158px;
+	float:left;
+}
+
+.logo img{
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+.top_banner .shoppingcart{
+	width:150px;
+	margin-top:10px;
+	margin-right:10px;
+	position: relative;
+	top: 267px;
+	right: 20px;
+	border-radius: 10%;
+	float:right;
+}
+.top_banner .welcomeuser {
+	width:120px;
+	height: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	top: 10px;
+	left: 130px;
+
+	border-radius: 10%;
+	float:right;
+}
+.main_menu {
+	width: 850px;
+	height: 35px;
+	background-color: #fcfaf0; 
+}
+
+.main_menu * a{
+	color:black;
+}
+
+.main_menu * a:hover{
+	/* color:#CC0000; */
+	width: 100px;
+	height: 38px;
+}
+.menu {
+	position: relative;
+	left: 30px;
+	float: left;
+}
+/* .menutext > a,a:visited,a:hover,a:active{
+	-webkit-backface-visibility:hidden;
+			backface-visibility:hidden;
+	  position:relative;
+	transition:0.5s color ease;
+	  text-decoration:none;
+	  color:#81b3d2;
+	  font-size:5;
+  }
+  .menutext > a:hover{
+	  color:#d73444;
+  }
+  .menutext > a.before:before,a.after:after{
+	content: "";
+	transition:0.5s all ease;
+	-webkit-backface-visibility:hidden;
+			backface-visibility:hidden;
+	position:absolute;
+  }
+  .menutext > a.before:before{
+	top:-0.25em;
+  }
+  .menutext > a.after:after{
+	bottom:-0.25em;
+  }
+  .menutext > a.before:before,a.after:after{
+	height:5px;
+	height:0.35rem;
+	width:0;
+	background:#d73444;
+  }  */
+.main_menu .logomenu {
+ 	float: left;
+	border-style: solid;
+	border: 1px;
+	position: relative;
+	left: 30px;
+} 
+
+.menutext{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:16px;
+	padding-top: 8px;
+	width: 100px;
+	height: 26px;
+	font-family: Dosis;
+}
+ .menutext:hover {
+		 background-color: #eeebdd; 
+		 text-decoration: underline;
+} 
+
+.space{
+	/* height:10px; */
+	/* margin-top:10px; */
+}
+
+.space2{
+	margin-top:10px;
+}
+
+.space3{
+
+	margin-top:10px;  
+}
+
+.main_body{
+	background-color:#fcfaf0;
+
+}
+
+.menupanel{
+	margin-left:5px;
+	width:207px;
+	float:left;
+}
+
+.bodypanel{
+	margin-left:10px;
+	float:left;
+}
+.topbanner {
+	width: 602;
+	height: 190px;
+}
+.bodypanel .topbanner{
+	/* background:url(../img/banner_discount.png); */
+	position: relative;
+	top: 5px;
+	width:602px;
+	height:182px;
+}
+
+.bodypanel .topbanner .btnorder{
+	float:left;
+	margin-left:100px;
+	/* margin-top:200px; */
+}
+
+.QW{
+	width:207px;
+}
+.newproduct {
+	background-color: #eeebdd;
+	position: relative;
+	top: 5px;
+	border-radius: 10%;
+	width: 207px;
+	height: 340px;
+}
+.detailspecial {
+	position:relative;
+	bottom: 30px;
+}
+.category {
+	padding-bottom: 5px;
+	background-color: #eeebdd;
+	border-radius: 10%;
+	width: 207px;
+}
+.search {
+	background-color: #eeebdd;
+	border-radius: 10%;
+	width: 207px;
+	position: relative;
+	bottom: 780px;
+	left: 600px;
+}
+.menubg1{
+	/* background:url(../img/sub_menu1_body.png) repeat-y; */
+}
+
+.menutitle{
+	margin-left:10px;
+	/* background-image:url(../img/menu_title_bg.png); */
+	width:186px;
+	height:48px;
+}
+
+.menutitle .text{
+	margin-left:35px;
+}
+
+/* .menutitle .text .bullet{
+	float:left;
+	margin-top:13px;
+} */
+
+.menutitle .text .text2{
+	width: 207px;
+	height: 25px;
+	margin-top:12px;
+	float:left;
+	color:#000000;
+	font-family: Dosis;
+	font-size:large;
+	font-stretch: expanded;
+	/*border: 1px;
+	border-style:solid;*/
+}
+
+.submenutext{
+	margin-left:50px;
+	margin-top:5px;
+}
+
+.submenutext .text{
+	text-align: center;
+	box-shadow: inset 0 0 0 0 #54b3d6;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	height:20px;
+	position: relative;
+	bottom: 10px;
+	right: 5px;
+	/* border-bottom:dotted 1px; */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-color:#999999;
+	width:100px;
+	font-family: Dosis;
+	font-size:larger;
+	font-weight: lighter;
+}
+.submenutext .text:hover{
+	box-shadow: inset 100px 0 0 0 #54b3d6;
+	color: white;
+	position: relative;
+	left: 2px;
+}
+
+
+.description .image{
+	text-align:center;
+	margin-top:5px;
+}
+
+.description .text{
+	position: relative;
+	top: 35px;
+	margin-top:5px;
+	text-align:center;
+}
+
+.description .price{
+	position: relative;
+	top: 35px;
+	margin-top:5px;
+	font-size:larger;
+	text-align:center;
+	color:#FF3300;
+	font:bold;
+}
+.addtocart {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	font-family: Dosis;
+	font-size:smaller;
+	color: white;
+	text-align: center;
+}
+.description .addtocart {
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+	top: 34px;
+}
+.addtocart:hover { 
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.detail {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #2658fc;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	font-family: Dosis;
+	font-size:smaller;
+	text-align: center;
+}
+.back {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #2658fc;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	font-family: Dosis;
+	font-size:smaller;
+	text-align: center;
+	width: 70px;
+	height: 20px;
+	padding-top: 5px;
+	position: relative;
+	bottom: 15px;
+}
+.description .detail {
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+	top: 34px;
+	left: 5px;
+}
+.outindetail {
+	position: relative;
+	bottom: 15px;
+}
+.addindetail {
+	position: relative;
+	bottom: 15px;
+}
+.detail:hover { 
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.back:hover { 
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.outofstock {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	font-family: Dosis;
+	font-size:smaller;
+}
+.description .outofstock {
+	
+	text-align: center;
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+	top: 34px;
+}
+.description .text {
+	font-family: Dosis;
+	font-size:small;
+	text-decoration:double;
+}
+.submenutext .text .submenubullet {
+	font-size:10px;
+}
+
+.products{
+	background-color:#FFFFFF;
+}
+
+
+.item{
+	float:left;
+}
+
+.footer{
+	margin-top:10px;
+}
+.footer .leftpanel {
+	width: 500px;
+	
+	float: left;
+}
+.imgnewprd {
+	position: relative;
+	bottom: 1000px;
+	right: 230px;
+	z-index: 10;
+}  
+.footer .paypal{
+	width:230px;
+	text-align:center;
+	float:left
+}
+
+.footer .rightpanel{
+	float:right;
+	margin-left:30px;
+}
+
+.copyright{
+	margin-top:5px;	
+	text-align:right;
+	font-size:10px;
+}
+
+.product_table{
+	margin-left:10px;
+}
+.textprd {
+	font-family: Dosis;
+	font-size:small;
+
+}
+.nameprd {
+	position: relative;
+	top: 5px;
+}
+.cateprd {
+	position: relative;
+	bottom: 5px;
+}
+.products .addtocart {
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+}
+.products .detail {
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+}
+.products .outofstock {
+	padding-top: 5px;
+	position: relative;
+	width: 70px;
+	height: 20px;
+}
+.textprice {
+	position: relative;
+	bottom: 5px;
+	margin-top:5px;
+	font-size:larger;
+	text-align:center;
+	color:#FF3300;
+	font:bold;
+}
+.tabledetail {
+	font-family: Dosis;
+	font-size: small;
+}
+.userdetailcaption {
+	position: relative;
+	left: 230px;
+	font-size: large;
+	font-weight:900;
+	color: black;
+}
+.polices_text{
+	width:595px;
+}
+
+.polices_text p{
+	margin-bottom:0px;
+}
+
+
+.textpricedetail{
+	color:#FF3300;
+}
+.detailbox {
+	position: relative;
+	padding: 5px;
+	top: 20px;
+	border: 1px;
+	border-radius:5%;
+	background-color: #d8e2dc;
+}
+.cartprice {
+	position: relative;
+	top: 1px;
+}
+.button {
+	display:inline-block;
+	padding:0.2em 1.2em;
+	margin:0 0.2em 0.2em 0;
+	border-radius:2em;
+	border: 1px;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	background-color:#4eb5f1;
+	text-align:center;
+	transition: all 0.2s;
+	
+}
+.button:hover {
+	background-color:#4095c6;
+}
+.footer .rightpanel .menu a{
+	color:#999999;
+	text-decoration:none;
+}
+
+.footer .rightpanel .menu a:hover{
+	color:#0066FF;
+}
+
+.footer .menu{
+	text-align:right;
+}
+
+.contactinfo{
+	margin-left:10px;
+}
+
+h3{
+	margin-top:0px;
+	margin-left:10px;
+	font-size:12px;
+}
+
+form{
+	margin:0px 0px 0px 0px;
+}
+
+.logout{
+	text-align:right;
+	margin-right:5px;
+}
+
+.logout a{
+	text-decoration:underline;
+}
+
+.rightline{
+	border-right:1px solid #CCCCCC;
+}
+
+.pagenumber{
+	width:602px;
+	text-align:center;
+}
+
+.pagenumber a{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.pagenumber a:hover{
+	color:#CC0000;
+}
+
+.productname a{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.productname a:hover{
+	color:#CC0000;
+}
+
+.findform{
+	text-align:center;
+}
+
+.invoice{
+	text-decoration:none;
+}
+
+.invoiceleft{
+	float:left;
+	width:250px;
+}
+
+.invoiceright{
+	float:right;
+	width:250px;
+	margin-right:10px;
+}
+
+.invoicetext{
+	text-align:center;
+	background-color:#1e93c9;
+	color:#FFFFFF;
+	height:20px;
+	margin-right:10px;
+	padding-top:5px;
+}
